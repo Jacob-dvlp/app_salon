@@ -1,3 +1,4 @@
+import 'package:beauty_salon/presenter/menu_salao/widget/body_menu_user_profile.dart';
 import 'package:beauty_salon/presenter/menu_salao/widget/header_user_profile.dart';
 import 'package:get/get.dart';
 import 'package:flutter/material.dart';
@@ -13,6 +14,7 @@ class MenuSalaoPage extends GetView<MenuSalaoController> {
         child: Column(
           children: const [
             HeaderUserProfile(),
+            BodyMenuUserProfile()
           ],
         ),
       ),
